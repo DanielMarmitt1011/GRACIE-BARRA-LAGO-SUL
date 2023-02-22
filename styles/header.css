@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-de-fundo-azul);
+}
+
+.simbolo_gb {
+    width: 80px;
+    margin: 0 1em;
+}
+
+.titulo_header {
+    font-size: 20px;
+    vertical-align: middle;
+    font-family: "Handel Gothic";
+    color: var(--branco);
+}
+
+.titulo2_header {
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Handel Gothic";
+    color: var(--branco);
+    margin: 1em 0;
+}
+
+.titulo3_header {
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Handel Gothic";
+    color: var(--branco);
+}
+
+@media screen and (min-width: 850px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .texto_header {
+        width: 60%;
+        text-align: center;
+    }
+
+    .titulo_header {
+        font-size: 40px;
+    }
+
+    .titulo2_header {
+        font-size: 20px;
+        margin: 0.5em 0;
+
+    }
+    
+    .titulo3_header {
+        font-size: 20px;
+        margin: 0.5em 0;
+
+    }
+}

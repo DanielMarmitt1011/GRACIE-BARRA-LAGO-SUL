@@ -1,0 +1,24 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/info.css");
+@import url("styles/horarios.css");
+@import url("styles/localização.css");
+@import url("styles/rodapé.css");
+
+
+
+
+
+@font-face {
+    font-family: "Handel Gothic";
+    src: url("fonts/handel-gothic.otf");
+}
+
+:root {
+    --cor-de-fundo-azul: #000077;
+    --cor-de-fundo-vermelho: #FA0026;
+    --branco: #FFFFFF;
+    --fonte-texto: "Titillium Web";
+    --cinza: #726D6D;
+    --preto: #000000;
+}

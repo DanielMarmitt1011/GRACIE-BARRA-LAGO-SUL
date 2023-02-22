@@ -1,0 +1,25 @@
+.rodapé {
+    display: block;
+    background-color: var(--cor-de-fundo-vermelho);
+    width: 100%;
+    padding: 0.5em 0;
+}
+
+.links {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    margin: 0.2em 1em;
+    font-family: "Handel Gothic";
+    color: var(--preto);
+}
+
+.links_gb, .links_gbwear {
+    font-family: "Handel Gothic";
+    color: var(--branco);
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0.1em 0;
+    padding: 0.2em;
+}

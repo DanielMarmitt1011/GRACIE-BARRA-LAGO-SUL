@@ -1,0 +1,72 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-de-fundo-vermelho);
+    height: 40px;
+    padding: 0.5em 0 0 0;
+}
+
+.banner_primeiro_titulo {
+    width: 50%;
+    color: var(--branco);
+    font-family: "Handel Gothic";
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+.banner_titulo {
+    width: 1000%;
+    color: var(--branco);
+    font-family: "Handel Gothic";
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.contato {
+    display: grid;
+    justify-content: flex-end;
+    text-align: right;
+    width: 50%;
+    margin: 0;
+}
+
+.icone {
+    width: 20px;
+}
+
+.contato_texto {
+    padding-top: 0.3em;
+    margin-left: 1em;
+    font-family: "Handel Gothic";
+    color: var(--branco);
+}
+
+.instagram, .whatsapp {
+    display: flex;
+    font-size: 12px;
+    margin: 0;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 850px) {
+
+    .banner {
+        padding: 1.5em 0;
+    }
+
+    .banner_titulo {
+        font-size: 40px;
+        padding: 0;
+
+    }
+
+    .banner_primeiro_titulo {
+        font-size: 40px;
+        padding: 0;
+
+    }
+
+    .contato {
+        margin-right: 1em;
+    }
+}

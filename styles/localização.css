@@ -1,0 +1,29 @@
+.localização {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.loc_titulo {
+    margin: 1em 0;
+    font-family: "Handel Gothic";
+}
+
+.loc_mapa{
+    width: 350px;
+    height: 250px;
+    border: 2px solid #000000;
+}
+
+@media screen and (min-width: 850px) {
+
+    .loc_titulo {
+        font-size: 35px;
+    }
+
+    .loc_mapa{
+        width: 550px;
+        height: 350px;
+        border: 2px solid #000000;
+    }
+
+}
